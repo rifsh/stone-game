@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(46, 41, 36);
+    color: white;
+    margin: 0;
+}
+.para p{
+    margin-left: 40px;
+}
+.rock-paper-sissor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70px;
+}
+.rock-paper-sissor p{
+    font-size: 24px;
+    margin-right: 70px;
+}
+.sissor{
+    margin-left: -5px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.iconbutton{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px;
+    border-width: 2px;
+    border-style: double;
+    border-color: rgb(255, 0, 0);
+    border-radius: 60px;
+    background-color: rgb(252, 244, 244);
+    margin-right: 20px;
+}
+button{
+    padding: 14px 14px 14px 14px;
+    color: white;
+    border: none;
+    border-color: white;
+    background: none;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
+.para img{
+    height: 50px;
+    width: 50px;
+}
+.style-result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}

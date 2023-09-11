@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stone-game.css">
+
+</head>
+
+<body>
+    <div class="rock-paper-sissor">
+        <p>
+            Rock
+        </p>
+        <p>
+            Paper
+        </p>
+        <p class="sissor">
+            Scissors
+        </p>
+    </div>
+    <div class="main">
+        <div class="iconbutton">
+            <button onclick="playGame('rock')">
+                <div class="img">
+                    <img src="icons/rock.png" alt="">
+                </div>
+            </button>
+        </div>
+
+        <div class="iconbutton">
+            <button onclick="playGame('paper') ">
+                <div class="img">
+                    <img src="icons/paper.png" alt="">
+                </div>
+            </button>
+        </div>
+
+        <div class="iconbutton">
+            <button onclick="playGame('scissor')">
+                <div class="img">
+                    <img src="icons/scissor.png" alt="">
+                </div>
+            </button>
+        </div>
+        <div class="iconbutton">
+            <button onclick="
+                score.wins = 0;
+                score.losses = 0;
+                score.tie = 0;
+                localStorage.removeItem('score');
+                ">
+                <div class="img">
+                    <img src="icons/reset.png" alt="">
+                </div>
+            </button>
+        </div>
+    </div>
+    <div class="para">
+        <p class="result"></p>
+        <p class="moves"></p>
+        <p class="js-score"></p>
+    </div>
+    <script src="stone-game.js"></script>
+</body>
+
+</html>
